@@ -9,5 +9,6 @@ public class Git_Zadatak1_updated {
         System.out.println("git push");
         System.out.println("touch - za kreiranje fajlova");
         System.out.println("git restore");
+        System.out.println("Izmena za treci");
     }
 }
