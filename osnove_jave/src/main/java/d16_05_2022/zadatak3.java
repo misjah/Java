@@ -1,5 +1,12 @@
 package d16_05_2022;
-
+//3.	Zadatak
+//Napisati metodu koja stampa podatke o korisniku u formatu:
+//JMBG: [jmbg]
+//Ime: [ime]
+//Prezime: [prezime]
+//God. rodjenja: [god]
+//Aktivan: [true/false]
+//Metoda prima jmbg, ime, prezime, god rodjenja i da li je aktivan kao parametre metode.
 public class zadatak3 {
     public static void main(String[] args) {
 
