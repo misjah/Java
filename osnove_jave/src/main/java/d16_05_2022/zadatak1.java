@@ -13,10 +13,10 @@ public class zadatak1 {
 
     }
 
-    public static void stampajVrednostZa10Vecu(int numa) {
-        int proiz = numa * 10;
+    public static void stampajVrednostZa10Vecu(int uvecan) {
+        int proiz = uvecan * 10;
         System.out.println("rezultat je: "+ proiz);
-
+        System.out.println("rezultat je: " + uvecan * 10); //drugaciji nacin
     }
 }
 
