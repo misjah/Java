@@ -8,7 +8,6 @@ public class zadatak4 {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         int n = 0;
-        String simol;
         print(3, ">");
     }
 
