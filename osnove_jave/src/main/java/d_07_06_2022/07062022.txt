@@ -1,0 +1,72 @@
+Zadatak 1. - Wikipedia languages
+
+Absolute xpath:
+
+English - $x("/html/body/div[2]/div")[0]  
+Russkiy - $x("/html/body/div[2]/div[3]")[0]
+Japanese - $x("/html/body/div[2]/div[2]")[0]
+Español - $x("/html/body/div[2]/div[4]")[0]
+Deutsch - $x("/html/body/div[2]/div[5]")[0]
+Français - $x("/html/body/div[2]/div[6]")[0]
+Italiano - $x("/html/body/div[2]/div[7]")[0]
+Zhōngwén - $x("/html/body/div[2]/div[8]")[0]
+Arabīyah - $x("/html/body/div[2]/div[10]")[0]
+Português - $x("/html/body/div[2]/div[9]")[0]
+
+
+
+Relative xpath:
+
+English - $x("//div[@class='central-featured-lang lang1']")[0] 
+Russkiy - $x("//div[@class='central-featured-lang lang3']")[0]
+Japanese - $x("//div[@class='central-featured-lang lang2']")[0]
+Español - $x("//div[@class='central-featured-lang lang4']")[0]
+Deutsch - $x("//div[@class='central-featured-lang lang5']")[0]
+Français - $x("//div[@class='central-featured-lang lang6']")[0]
+Italiano - $x("//div[@class='central-featured-lang lang7']")[0]
+Zhōngwén - $x("//div[@class='central-featured-lang lang8']")[0]
+Arabīyah - $x("//div[@class='central-featured-lang lang10']")[0]
+Português - $x("//div[@class='central-featured-lang lang0']")[0]
+
+"Contains" primeri: (jedan rezultat nalazi u konzoli)
+
+$x("//div[contains(@class, 'lang2')]")[0] - japanese
+
+$x("//div[contains(@lang, 'en')]")[0] - English
+
+Zadatak 2. IMDB
+
+Tom Cruise - actor 50 movies total
+
+
+$x("//*[contains(@href, 'nm_flmg_act')]") - 50 rezultata
+$x("//div[contains(@id, 'actor')]") - 51 rezultat
+
+
+Zadatak 3.
+
+ebay.com
+
+$x("/html/body/header/div/ul[1]/li[1]/span/a")[0] - sign in
+
+$x("/html/body/header/div/ul[1]/li[1]/span/span/a")[0] - register
+
+$x("//*[@id='gh-shipto-click']")[0]  - ship to
+
+$x("//*[@id='gh-p-2']")[0] - sell
+
+$x("//*[@title='Watchlist']")[0] - watchlist
+
+$x("//*[@title='My eBay']")[0] - my ebay
+
+$x("//*[@id='gh-shop-a']")[0] - shop by cathegory
+
+$x("//*[@class='gh-tb ui-autocomplete-input']")[0] - search
+
+$x("//*[@class='hl-cat-nav__container']")[0] - navigation bar
+
+$x("//*[@class='btn btn-prim gh-spr']")[0] - search button
+
+$x("//*[@title='Advanced Search']")[0]
+
+
